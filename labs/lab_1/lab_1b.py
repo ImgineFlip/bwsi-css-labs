@@ -8,6 +8,7 @@ The script asks the user to input the numbers and the operation to be performed,
 and prints the result to the terminal window.
 
 """
+"""sanitizer"""
 def request_sanitized_number(prompt: str) -> float:
     while True:
         try:
